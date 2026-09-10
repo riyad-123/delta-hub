@@ -1,16 +1,17 @@
 # Delta Hub
 
-Public distribution repository for the Delta Hub protected Luau launcher.
+Public distribution repository for the Delta Hub Luau launcher.
 
 ## Files
 
-- `protected.luau` — obfuscated launcher hosted for distribution
-- `github-loader.luau` — loader that fetches the protected launcher
+- `delta.luau` — obfuscated launcher hosted for distribution
+- `github-loader.luau` — loader that fetches `delta.luau`
+- `run.luau` — ready-to-run one-line loader
 
 The editable source and obfuscation tool are intentionally kept out of this public repository.
 
-## Raw launcher URL
+## Run
 
-```text
-https://raw.githubusercontent.com/riyad-123/delta-hub/main/protected.luau
+```lua
+loadstring(game:HttpGet("https://raw.githubusercontent.com/riyad-123/delta-hub/main/delta.luau"))()
 ```
