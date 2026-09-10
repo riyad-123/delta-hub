@@ -1,1 +1,0 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/riyad-123/delta-hub/main/delta.luau"))()
